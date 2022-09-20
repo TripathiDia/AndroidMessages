@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Android Messages</string>
     <string name="phoneNo">Enter Mobile Number</string>
-    <string name="msg">Enter Message</string>
-    <string name="sendMsg">Send your Message</string>
+    <string name="msg">Enter Custom Message</string>
+    <string name="sendMsg">Send Custom Message</string>
+    <string name="sendDefault">Send Default Message</string>
 </resources>

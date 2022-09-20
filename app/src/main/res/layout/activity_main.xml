@@ -41,4 +41,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="OR"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnSendDefault"
+        android:text="@string/sendDefault"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
 </LinearLayout>
