@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void sendDefaultMessage() {
         Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+//        SmsManager smsManager = SmsManager.getDefault();
+//        smsManager.sendTextMessage(mobile, null, sms, null, null);
         smsIntent.setData(Uri.parse("smsto:"));
         smsIntent.setType("vnd.android-dir/mms-sms");
         smsIntent.putExtra("address", new String("7021741580"));
